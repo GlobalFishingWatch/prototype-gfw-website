@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /embargoed/
+Disallow: /embargoed.html

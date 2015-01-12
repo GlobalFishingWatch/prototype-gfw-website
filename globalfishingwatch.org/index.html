@@ -1,0 +1,2400 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+
+<meta name="keywords" content="Global Fishing Watch, SkyTruth, Oceana, Pelagos, IUU, AIS">
+<meta name="description" content="Technology Illuminating the World’s Fishing Fleet">
+
+<!-- fb meta -->
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Global Fishing Watch"/>
+<meta property="og:description" content="Technology Illuminating the World’s Fishing Fleet"/>
+<meta property="og:url" content="http://globalfishingwatch.org"/>
+<meta property="og:image" content="http://globalfishingwatch.org/images/gfw_logo_vertical_lge.png"/>
+
+<meta name="viewport" content="initial-scale=1,width=device-width,height=device-height,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<!-- twitter meta -->
+<meta name="twitter:card" value="summary_large_image">
+<meta name="twitter:site" value="@skytruth">
+<meta name="twitter:title" content="Global Fishing Watch">
+<meta name="twitter:description" content="Technology Illuminating the World’s Fishing Fleet">
+<meta name="twitter:url" content="http://globalfishingwatch.org/">
+<meta name="twitter:image" content="">
+<meta name="twitter:image:width" content="560">
+<meta name="twitter:image:height" content="295">
+
+<meta name="ROBOTS" content="NOARCHIVE">
+<meta name="msapplication-starturl" content="http://globalfishingwatch.org/">
+
+<title>Global Fishing Watch</title>
+<!-- favicons -->
+<link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/icons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/icons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/icons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/icons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/icons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/icons/favicon-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/icons/favicon-160x160.png" sizes="160x160">
+<link rel="icon" type="image/png" href="/icons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/icons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/icons/favicon-32x32.png" sizes="32x32">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/icons/mstile-144x144.png">
+
+<script>
+	var isMobile = function() {
+	  return /iPad|iPod|iPhone|Android/.test(navigator.userAgent) || document.location.hash == "#ipad";
+	}
+
+	var isPhone = function() {
+		return isMobile() && window.innerWidth < 768;
+	}
+
+  if (isMobile()) {
+    document.documentElement.className = document.documentElement.className + " ios";
+  }
+</script>
+<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<style>
+body {
+  font: 17px/28px Georgia;
+  margin: 0;
+  padding: 0;
+  color: #444;
+}
+
+a {
+  color: #004276;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.article {
+  border-top: solid 1px #000;
+}
+
+.section {
+  margin-top: 150px;
+}
+
+.section:after {
+  content: "";
+  clear: left;
+  display: block;
+}
+
+.section--last {
+  margin-bottom: 130px;
+}
+
+.section--credits {
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+}
+
+.section--credits .st {
+	float: left;
+	width: 33%;
+}
+
+.section--credits .oc {
+	float: left;
+	width: 34%;
+	text-align: center;
+}
+
+.section--credits .g {
+	float: left;
+	width: 33%;
+	text-align: right;
+}
+
+
+.section--credits a {
+  color: #444;
+}
+
+.column {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 740px;
+}
+
+.section h3 {
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.scroll-prompt {
+  position: absolute;
+  bottom: 15%;
+  line-height: 20px;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  font-weight: normal;
+  text-transform: uppercase;
+  z-index: 3;
+  margin-left: 7%;
+  padding-left: 112px;
+}
+
+.scroll-prompt svg {
+  fill: none;
+  stroke: white;
+  stroke-width: 2px;
+}
+
+.headline,
+.section h3 {
+  font: 200 30px/40px "Roboto", sans-serif;
+}
+
+.headline {
+  font-size: 45px;
+  line-height: 60px;
+  margin-bottom: 15px;
+}
+
+/* partner boxes */
+
+#partner_boxes {
+}
+
+#partner_boxes .box1,
+#partner_boxes .box2 {
+	width: 30%;
+	float: left;
+	max-width: 220px;
+	max-width: 220px;
+}
+
+#partner_boxes .box2 {
+	margin: 0 35px;
+}
+
+#partner_boxes .box3 {
+	width: 30%;
+	float: right;
+	max-width: 220px;
+	max-width: 220px;
+}	
+
+#partner_boxes .box_logo {
+	text-align: center;
+}
+
+hr {
+	color: #b8bda7;
+	background-color: #b8bda7; 
+	border: none;
+}
+
+#partner_boxes .box_link {
+	text-decoration: underline;
+	font-weight: 600;
+}
+
+/* video caption boxes - single */
+.caption_box {
+	background-color: #f7f7f7;
+	padding: 20px !important;
+	color: #444 !important;
+	text-shadow: none !important;
+}
+
+
+/* video caption boxes - three */
+.caption_boxes {
+	width: 50% !important;
+	border: solid 1px purple;
+}
+
+.caption_boxes .caption_box_1, 
+.caption_boxes .caption_box_2, 
+.caption_boxes .caption_box_3 {
+	background-color: #f7f7f7;
+	padding: 20px;
+	color: #444;
+	text-shadow: none;
+	width: 200px;
+	float: left;
+}
+
+.caption_boxes .caption_box_1, 
+.caption_boxes .caption_box_2 { 
+	margin-right: 3%;
+}
+
+/* iframe hack to make video the right height */
+
+.iframe_wrap {
+    position: relative;
+    padding-bottom: 56.25%; /* proportion value to aspect ratio 16:9 (9 / 16 = 0.5625 or 56.25%) */
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.iframe_wrap iframe {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+@media (max-width: 704px) {
+  .column {
+    margin: auto 5%;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .ios body {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .ios .column {
+    margin: auto 8%;
+  }
+
+  .ios .section {
+    margin-top: 50px;
+  }
+
+  .ios .navigation {
+	background-color: #fff;
+    position: static;
+  }
+
+  .section h4 {
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 30px;
+  }
+
+  .section h3 {
+    font-size: 48px;
+    text-align: center;
+    margin: 10px 30px 30px 30px;
+  }
+}
+
+.image {
+  width: 120%;
+  margin: 40px -10%;
+}
+
+.image img {
+  width: 100%;
+}
+
+.image .caption {
+  font: 12px/1.4em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  clear: left;
+  color: #999;
+}
+
+@media (min-width: 1200px) {
+  .image--diptych {
+    width: 200%;
+    margin-left: -50%;
+  }
+
+  .image--diptych img {
+    position: relative;
+    width: 50%;
+    float: left;
+    left: 5px;
+  }
+
+  .image--diptych .caption {
+    margin-left: -5px;
+    padding-top: .7em;
+  }
+
+  .image--diptych img:first-child {
+    left: -5px;
+  }
+}
+.video {
+  font: 500 17px/30px Roboto, sans-serif;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.video-container {
+  float: left;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.video-container video,
+.video-container img {
+  width: 100%;
+  position: absolute;
+}
+
+.video-caption {
+  margin-top: 5px;
+  color: #888;
+  padding-bottom: 20px;
+}
+
+.video-source {
+  font: 11px/1.4em Roboto, sans-serif;
+  color: #999;
+  position: absolute;
+  bottom: 10px;
+  right: 7%;
+  z-index: 3;
+}
+
+.column .video {
+  border: solid 8px #f0f0f0;
+  box-sizing: border-box;
+  margin: 40px -10%;
+  width: 120%;
+}
+
+.video-sequence:first-child {
+  margin-top: 40px;
+}
+
+.video-sequence .video {
+  min-height: 56.25vw;
+}
+
+.video-sequence-indicator {
+  font-family: arial;
+  position: absolute;
+  line-height: 1.4em;
+  top: 50%;
+  right: 20px;
+  color: #fff;
+  white-space: pre;
+}
+
+.video {
+  float: left;
+}
+
+.video + p {
+  clear: left;
+}
+
+.video .video-caption {
+  position: absolute;
+  left: 7%;
+  bottom: 20%;
+  width: 240px;
+  z-index: 3;
+  color: #fff;
+  text-shadow: 0 1px 2px #000;
+  padding: 20px 0;
+}
+
+.video-sequence .video:last-of-type .video-caption {
+  bottom: 30%;
+}
+
+.video .video-caption--long {
+  width: 400px;
+  bottom: 12.44%;
+}
+
+.video .video-caption--right {
+  right: 7%;
+  left: inherit;
+  text-align: right;
+}
+
+.video .video-caption--center {
+  left: inherit;
+  text-align: center;
+  width: 50%;
+  margin: 0 25%;
+}
+
+.video .video-caption--head {
+  top: 0;
+  left: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-caption--head .video-headline {
+  position: absolute;
+  /*top: 10%;*/
+  top: 25%;
+  color: #fff;
+  left: 7%;
+  border_bottom: solid 2px #fff;
+  text-shadow: 0 1px 2px #000;
+  font-size: 50px;
+  line-height: 55px;
+  padding-bottom: 35px;
+}
+
+.video-caption--head .video-summary {
+  position: absolute;
+  top: auto;
+  bottom: 25%;
+  left: 7%;
+  width: 270px;
+  text-shadow: 0 1px 2px #000;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) and (min-height: 500px) and (max-height: 800px) {
+  .video-caption--head .video-headline {
+    top: 20%;
+  }
+
+  .video-caption--head .video-summary {
+    bottom: 20%;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+
+  .ios .navigation-left {
+    margin-left: 25px;
+  }
+
+  .ios .scroll-prompt {
+    display: none;
+  }
+
+  /* GLOBAL STUFF */
+
+  .ios body {
+    overflow-x: hidden;
+  }
+
+  .ios #preview-banner {
+    display: none;
+  }
+
+  .ios .article {
+    border-top: none;
+  }
+
+  .ios .caption {
+    line-height: 1.1;
+  }
+
+  .ios .section h3 {
+    margin-top: 50px;
+  }
+
+  /* STANDALONE INSET IMAGES */
+
+  .ios .image {
+    width: 110%;
+    margin: 40px -5%;
+  }
+
+  /* SECTION + SEQUENCES */
+
+  .ios .section {
+    margin-top: 20px;
+  }
+
+  .ios .video-sequence {
+    /*background-color: #000;*/
+  }
+
+  .ios .video-sequence:first-child {
+    margin-top: 0px;
+  }
+
+  /* VIDEO SLIDE */
+
+  .ios .video {
+    box-sizing: border-box;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  /* static posters for iPad */ 
+  .ios .tuna {
+	background-image: url(/assets/720/tuna-poster.jpg);
+    box-sizing: border-box;
+	margin: 60px 0 0 0;
+	background-repeat: no-repeat;
+  }
+    
+  .ios .south-georgia {
+	background-image: url(/assets/720/south-georgia-poster.jpg);
+    box-sizing: border-box;
+	background-repeat: no-repeat;
+	margin: 0;
+  }
+
+  .ios .fisherman {
+    box-sizing: border-box;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .ios .video-sequence .video,
+  .ios .video-container  {
+    overflow: visible;
+  }
+
+  .ios .video-container {
+    padding: 60px 0;
+    position: relative;
+    line-height: 0;
+  }
+
+  .ios .video-container img {
+    position: static;
+  }
+
+  .ios .video-source {
+    bottom: 65px;
+    right: 10px;
+  }
+
+  .ios .video-caption {
+    bottom: 0%;
+    top: 65px;
+    width: 260px;
+    left: 50px;
+	background-color: transparent !important;
+	color: #fff !important;
+  }
+
+  .ios .video-rule {
+    position: absolute;
+    bottom: 0px;
+    border-top: 1px solid #333;
+    left: 35%;
+    right: 35%;
+  }
+
+  /* INTRO SLIDE */
+
+  .ios .video-sequence:first-child {
+    padding-top: 0;
+  }
+
+  .ios .video-sequence:first-child .video:first-of-type {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .ios .video-sequence:first-child .video:first-of-type .video-container:first-child {
+    padding-top: 0;
+    padding-bottom: 60px;
+    height: 360px;
+  }
+
+  /* HEADLINE AND INTRO */
+
+  .ios .video-sequence:first-child .video-caption--head {
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+  }
+
+  .ios .video-headline {
+    left: 25px;
+    top: 13%;
+    border-bottom: none;
+    color: white;
+    font-size: 45px;
+  }
+
+  .ios .video-headline .headline {
+    bottom: auto;
+    top: -2%;
+    font-size: 45px;
+    color: #FFF;
+    line-height: 60px;
+  }
+
+  .ios .video-summary {
+    right: 7%;
+    left: auto;
+    top: auto;
+    bottom: 10%;
+    width: 280px;
+    text-align: right
+  }
+
+  /* MAP STUFF FOR MOBILE */
+
+  .ios .map-sequence {
+    background-color: white;
+    margin-top: 0px;
+    padding-top: 0px !important;
+  }
+
+  .ios .map-sequence .video-container {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  .ios .map-sequence .video-caption {
+    font-family: Georgia;
+    font-size: 16px;
+    line-height: 26px;
+    position: static;
+    color: #000;
+    text-shadow: none;
+    max-width: 580px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    padding-bottom: 0px;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    font-weight: normal;
+  }
+
+  .ios .map-sequence .video-source {
+    bottom: 15px;
+    right: 0px;
+  }
+
+  .ios .map-hide {
+    min-height: 0px;
+  }
+
+  .ios .map-hide .video-container {
+    display: none;
+  }
+
+  .ios .map-hide .video-caption  {
+    padding-top: 20px;
+  }
+
+  .ios .map-hide:nth-of-type(1) .video-caption  {
+    padding-top: 0px;
+  }
+
+  /* TABLET AND PHONE MAPS */
+
+  .ios .map {
+    margin: 40px 0 40px -94px;
+    width: 100%;
+    height: auto;
+  }
+  .ios .map > * {
+    position: absolute;
+  }
+
+  .ios .map img {
+    position: static;
+  }
+
+  .ios .map-source {
+    right: 0px;
+    bottom: 5px;
+  }
+
+/*  .ios .nytg-tabletmap {
+    position:relative;
+    line-height: 1 !important;
+    overflow: hidden;
+    letter-spacing: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+
+  .ios .nytg-tabletmap img {
+    float: none;
+    position: static;
+  }
+
+  .ios .nytg-tabletmap p {
+    font-family:"Helvetica Neue",Helvetica,arial,sans-serif;
+    font-size:13px;
+    line-height:18px;
+    margin:0;
+    color: #fff;
+    opacity:.95;
+    font-weight: 500;
+  }
+
+  .ios .nytg-tabletmap > * {
+    position: absolute;
+  }
+
+  .ios .nytg-phonemap > * {
+    position: absolute;
+  }
+
+  .ios .nytg-phonemap {
+    position:relative;
+    width:100%;
+    font: 12px/15px "Helvetica Neue",Helvetica,arial,sans-serif;
+    color: #fff;
+    letter-spacing: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .ios .nytg-phonemap img {
+    float: none;
+    position: static;
+  }
+
+  .ios .nytg-phonemap p{
+    opacity: .95;
+    margin: 0;
+  }
+
+  .ios #nytg-phonemap_0_spratlys {
+    min-height: 273px;
+    background-color: #222;
+  }
+}*/
+
+@media only screen and (min-width: 767px) and (max-width: 782px) {
+  .ios .map-source {
+    right: 10px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+  /* SECTIONS + SEQUENCE */
+
+  .ios .column {
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+  }
+
+  /* ARTICLE HEDS + SUBHEDS */
+
+  .ios .video-headline .headline,
+  .ios .headline {
+    line-height: 34px;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .ios .section h3 {
+    text-align: left;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 28px;
+  }
+
+  .ios .column .byline br:nth-of-type(1) {
+    /*display: none;*/
+  }
+
+  .ios .image {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .ios .map {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .ios .video-sequence {
+    padding-top: 30px;
+  }
+
+  /* VIDEO SLIDE */
+
+  .ios .video  {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .ios .video-container {
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+
+  .ios .video-caption {
+    position: static;
+    float: left;
+    padding-top: 0px;
+    margin-top: 0px;
+    text-align: left !important;
+    margin-left: 7%;
+    margin-right: 7%;
+    width: auto;
+    padding-bottom: 30px;
+
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .ios .video-source {
+    bottom: 35px;
+    right: 10px;
+  }
+
+  .ios .video-sequence:first-of-type .video-source {
+    display: none;
+  }
+
+  .ios .video-sequence:first-of-type.ios-loaded .video-source {
+    display: block;
+    bottom: 25px;
+    right: 5px;
+  }
+
+  .ios .video-rule {
+    display: none;
+  }
+
+  /* INTRO SLIDE */
+
+  .ios .video-sequence:first-child .video:first-child {
+    margin-top: 0;
+  }
+
+  .ios .video-sequence:first-child .video:first-of-type .video-container  {
+    padding-bottom: 40px !important;
+  }
+
+  .ios .ios-loaded:first-child .video:first-of-type .video-container {
+    background-size: 200%;
+    background-position: 59% 0px;
+    background-image: url(/assets/720/world-pacific-centered-poster.jpg);
+    background-repeat: no-repeat;
+  }
+
+  .ios .video-caption--head {
+    position: relative;
+    float: none !important;
+    margin-left: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .ios .video-headline {
+    /*position: static;
+    top: auto;
+    bottom: auto;
+    left: auto;
+    right: auto;*/
+  }
+
+  .ios .video-headline .headline,
+  .ios .video-headline .byline {
+    position: absolute;
+    left: 25px;
+  }
+
+  .ios .video-headline .byline {
+    display: none;
+  }
+
+  .ios .ios-loaded .video-headline .byline {
+    display: block;
+  }
+
+  .ios .video-headline .headline {
+    top: 50px;
+    color: white;
+  }
+
+  .ios .video-caption--head .headline br:nth-of-type(1) {
+    display: none;
+    width: 5px;
+    height: 5px;
+  }
+
+  .ios .video-headline .byline {
+    top: 90px;
+    position: absolute;
+    color: #FFF;
+    border-top: none;
+    letter-spacing: 0px;
+    line-height: 16px;
+  }
+
+  .ios .video-summary {
+    position: static;
+    float: left;
+    text-align: left;
+    padding-left: 25px;
+    padding-bottom: 40px;
+    width: auto;
+    padding-right: 30px;
+  }
+
+  /* MAP SEQUENCE */
+
+  .ios .map-sequence .video-caption {
+    margin-left: 5%;
+    margin-right: 5%;
+    max-width: 100%;
+    width: auto;
+  }
+
+  .ios .map-sequence .video-source {
+    right: 5px;
+  }
+
+  .ios .map-source {
+    right: 0;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .ios .video-sequence:first-child .video:first-of-type .video-container {
+    background-size: cover;
+    background-position: 60%;
+    background-image: url(http://globalfishingwatch.org/assets/720/world-pacific-centered-poster.jpg);
+  }
+
+  .ios .align-left {
+    left: 50px;
+    right: auto;
+    margin: 0;
+    text-align: left;
+  }
+
+  .ios .align-bottom,
+  .ios .video-sequence .video .align-bottom {
+    bottom: 65px;
+    top: auto;
+  }
+
+  .ios .align-middle {
+    top: 50%;
+    margin-top: -115px;
+  }
+
+  .ios .align-right {
+    right: 50px;
+    left: auto;
+    text-align: right;
+  }
+
+  .ios .caption-loresto-binoculars {
+    width: 240px;
+  }
+
+/*  TODO:REMOVE
+  .ios .caption-nytg-tabletmap-0-spratlys-template,
+  .ios .caption-underwater,
+  .ios .caption-night-exterior-storm,
+  .ios .caption-flight,
+  .ios .caption-cockpit {
+    width: 280px;
+  }
+
+  .ios .map {
+    min-width: 768px;
+  }
+}
+.map > * {
+  position: absolute;
+}
+
+.map {
+  color: #fff;
+  font: 13px/18px "Helvetica Neue",Helvetica,arial,sans-serif;
+  height: 512px;
+  margin: 40px -94px;
+  padding-bottom: 1.4em;
+  position: relative;
+  width: 768px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.map p {
+  margin: 0;
+  opacity: .95;
+}
+
+.map-source {
+  font: 11px/1.4em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #999;
+  bottom: -.2em;
+  right: 0;
+}
+
+.map--spratly .map-s0 {
+  line-height: 15px;
+  opacity: 0.7;
+}
+
+.map--spratly .map-s1 {
+  line-height: 15px;
+  text-align: right;
+  opacity: 0.7;
+}
+
+.map--spratly .map-s2 {
+  font-size: 18px;
+  line-height: 24px;
+  font-style: italic;
+  text-align: center;
+  letter-spacing: 0.05em;
+  opacity: 0.2;
+}
+
+.map--spratly .map-s3 {
+  font-size: 15px;
+  line-height: 20px;
+  font-style: italic;
+  text-align: center;
+  letter-spacing: 0.05em;
+  opacity: 0.2;
+}
+
+.map--ayungin .map-s0 {
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.map--ayungin .map-s1 {
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: 500;
+}
+
+.map--ayungin .map-s3 {
+  font-size: 10px;
+  opacity: 0.7;
+}
+
+.map--ayungin .map-s5 {
+  font-size: 13px;
+  line-height: 15px;
+  font-style: italic;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.map--ayungin .map-s6 {
+  line-height: 15px;
+  opacity: 0.6;
+}
+
+.map--ayungin .map-s7 {
+  line-height: 15px;
+  text-align: right;
+  opacity: 0.6;
+}
+
+.map--ayungin .map-s8 {
+  font-style: italic;
+  text-align: center;
+  letter-spacing: 0.05em;
+  opacity: 0.3;
+}
+
+.map--ayungin .map-s9 {
+  line-height: 15px;
+}
+@font-face {
+  font-family: "nyt-cheltenham";
+  src: url(http://graphics8.nytimes.com/newsgraphics/2013/10/27/south-china-sea/assets/nyt-cheltenham-200-normal.woff) format("woff");
+  font-style: normal;
+  font-weight: 200;
+}*/
+</style>
+<!--[if lte IE 8]><style type="text/css">
+.video-container video,
+.video-container img {
+  position: static;
+}
+</style><![endif]-->
+<script>
+
+var pageHeight = /iPad|iPod|iPhone/.test(navigator.userAgent) ? function() {
+  var screenWidth,
+      screenHeight;
+  switch (orientation) {
+    case 90: case -90: screenWidth = screen.height, screenHeight = screen.availWidth; break;
+    default: screenWidth = screen.width, screenHeight = screen.availHeight; break;
+  }
+  return screenHeight / screenWidth * document.body.clientWidth;
+} : function() {
+  return window.innerHeight || document.documentElement.clientHeight;
+};
+
+</script>
+<script>(function() {
+
+var defers = [];
+defer = function(f) { defers.push(f); };
+await = function() { defers.forEach(function(f) { f(); }); };
+
+})();</script>
+<style>
+
+.navigation {
+  font: 200 12px/20px "Roboto", sans-serif;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 75px;
+  background: #f7f7f7;
+  /*border-bottom: solid 1px #ddd;*/
+  /*box-shadow: 0px 3px 2px #b8bda7;*/
+  box-shadow: 5px 3px 2px rgba(0,0,0,0.25);
+  z-index: 20;
+}
+
+.navigation a {
+  /*color: #fff;*/
+  color: #767777;
+}
+
+.ios .navigation {
+  position: absolute;
+}
+
+.navigation-left,
+.navigation-left > *,
+.navigation-right > * {
+  float: left;
+}
+
+.navigation-left {
+  margin-left: 7%;
+}
+
+.navigation-right {
+  float: right;
+  margin-right: 7%;
+  padding-top: 20px;
+}
+
+.navigation-headline:before,
+.navigation-sections:before,
+.navigation-shares:before {
+  content: "";
+  float: left;
+  height: 20px;
+  /*border-right: solid 1px #444;*/
+  margin: 9px 15px;
+}
+
+.navigation-logo {
+  float: left;
+  font: 200 20px/40px "Roboto", sans-serif;
+  /*height: 17px;*/
+  height: 75px;
+  line-height: 75px;
+  margin: 0;
+  /*width: 350px;*/
+}
+
+.navigation-logo img {
+	max-height: 47px;
+	vertical-align: middle;
+	padding-right: 25px;
+}
+
+A.navigation-logo, A.navigation-logo:hover {
+	text-decoration: none;
+}
+
+.navigation-headline {
+  float: left;
+  letter-spacing: .1em;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+.navigation-headline:before {
+  margin-top: 0;
+}
+
+.navigation-sections:before {
+  margin-right: 5px;
+}
+
+.navigation-section {
+  padding: 10px 10px 9px 0px;
+  float: left;
+}
+
+.navigation-section:last-child {
+  padding-right: 0;
+}
+
+.navigation-logo,
+.navigation-section,
+.navigation-volume {
+  /*opacity: .5;*/
+}
+
+.navigation-logo:hover,
+.navigation-section:hover,
+.navigation-section--active,
+.navigation-volume:hover {
+  /*opacity: 1;*/
+}
+
+.navigation-marker {
+  position: absolute;
+  margin-top: -80px;
+}
+
+.navigation-volume,
+.navigation-share {
+  display: inline-block;
+  padding: 11px 5px;
+}
+
+.navigation-icon {
+  width: 18px;
+  height: 18px;
+  /*background-image: url(/icons/icons.png);*/
+}
+
+/*.navigation-share--twitter .navigation-icon { background-position: -6px -28px; }
+.navigation-share--twitter:hover .navigation-icon { background-position: -6px -48px; }
+.navigation-share--facebook .navigation-icon { background-position: -26px -28px; }
+.navigation-share--facebook:hover .navigation-icon { background-position: -26px -48px; }
+.navigation-share--email .navigation-icon { background-position: -28px -68px; width: 22px; }
+.navigation-share--email:hover .navigation-icon { background-position: -5px -68px; }
+.navigation-volume .navigation-icon { background-position: -52px -68px; }
+.navigation-volume.navigation-volume--muted .navigation-icon { background-position: -72px -68px; }*/
+
+@media screen and (max-width: 999px) {
+  .navigation-headline {
+    display: none;
+  }
+
+  .ios .navigation-headline {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .ios .navigation-shares,
+  .ios .navigation-volume,
+  .ios .navigation-headline {
+    display: none;
+  }
+
+  .ios .navigation {
+    background-color: #f7f7f7;
+    position: absolute;
+  }
+
+  .ios .navigation-logo {
+    /* REMOVED */
+  }
+
+  .ios .navigation-sections {
+    margin-top: 10px;
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .ios .navigation-solid {
+	background-color: #fff;
+    position: fixed;
+  }
+
+  .ios .navigation-solid .navigation-headline {
+    display: block;
+  }
+
+  .ios .navigation-solid .navigation-logo {
+    margin-top: 11px;
+  }
+
+  .ios .navigation-solid .navigation-sections {
+    margin-top: 0px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ios .navigation-headline,
+  .ios .navigation-right {
+    display: none;
+  }
+}
+
+</style>
+<div class="navigation">
+  <div class="navigation-left"><a class="navigation-logo" href="" alt="Global Fishing Watch"><img src="http://globalfishingwatch.org/images/logo.png" />Global Fishing Watch </a></div>
+  <div class="navigation-right">
+    <!--<a href="#" class="navigation-volume"><div class="navigation-icon"></div></a>-->
+    <img style="float: left; padding: 6px 35px 0 0; vertical-align: middle;" src="/images/test_partner_logos_grey2.png">
+    <div class="navigation-sections">
+      <a href="#1" class="navigation-section" title="Section 1">Home</a>
+      <a href="#2" class="navigation-section" title="Section 2">About</a>
+      <a href="#3" class="navigation-section" title="Section 3">Video</a>
+      <a href="#4" class="navigation-section" title="Section 4">Partners</a>
+      <a href="#5" class="navigation-section" title="Section 5">Feedback</a>
+      <a href="#6" class="navigation-section" title="Section 6">Media Kit</a>
+    </div>
+  </div>
+</div>
+<script>
+
+defer(function() {
+
+var anchor = d3.selectAll(".navigation-section").on("click", clicked),
+    marker = d3.selectAll(".navigation-marker"),
+    markerOffsets;
+
+d3.select(".navigation-headline")
+    .on("click", clicked);
+
+d3.select(window)
+    .on("resize.navigation", resized)
+    .on("load.navigation", resized)
+    .on("scroll.navigation", scrolled);
+
+resized();
+
+function resized() {
+  markerOffsets = marker.datum(function(d, i) { return i ? this.offsetTop : 0; }).data();
+  scrolled();
+}
+
+function scrolled() {
+  var j = Math.max(0, Math.min(markerOffsets.length - 1, d3.bisectLeft(markerOffsets, pageYOffset + 80) - 1));
+  anchor.classed("navigation-section--active", function(d, i) { return i === j; });
+}
+
+function clicked(d, i) {
+  d3.event.preventDefault();
+  d3.transition().duration(750).tween("scroll", function() {
+    var offset = d3.interpolateNumber(pageYOffset, markerOffsets[i]);
+    return function(t) { scrollTo(0, offset(t)); };
+  });
+}
+
+});
+
+</script>
+<script async src="//platform.twitter.com/widgets.js"></script>
+<script async src="//connect.facebook.net/en_US/all.js"></script>
+<div class="main">
+  <div class="article">
+    <div class="section video-sequence">
+      <a class="navigation-marker" id="1"></a>
+      <div class="video" data-video="world-pacific-centered">
+        <div class="video-container">
+          <!--[if lte IE 8]><img src="/assets/720/world-pacific-centered-poster.jpg"><![endif]-->
+        </div>
+       
+	    <div class="video-caption video-caption--head">
+          <div class="video-headline headline">Global<br />Fishing<br />Watch</div>
+          <div class="video-summary">A Technology Initiative to Illuminate Global Fishing Activity</div>
+          <div class="scroll-prompt">
+            Scroll<br>
+            <svg width="18" height="8">
+              <path d="M0,0L9,7L18,0"></path>
+            </svg>
+          </div>
+        </div>
+	  </div>
+      <div class="video tuna" data-video="tuna" data-animation>
+        <div class="video-container">
+          <!--[if lte IE 8]><img src="/assets/720/tuna-poster.jpg"><![endif]-->
+        </div>
+        <div class="video-caption">
+            Global overfishing is destroying ocean ecosystems. Nearly one-third of marine fish stocks worldwide have been overfished, and over 90% of the world’s fisheries are fully exploited or over-fished, according a 2014 report by the United Nations Food and Agriculture Organization.
+        </div>
+      </div>
+      <div class="video fisherman">
+        <div class="video-container">
+          <!--div class="video-source">Image attribution 2: [image attribution here, if needed]</div-->
+          <img src="/assets/720/Illegal-fishing-trawler.jpg">
+        </div>
+        <div class="video-caption">
+            The global fishing fleet operates far out at sea, over the horizon and out of sight. Until now…        </div>
+      </div>
+      <div class="video south-georgia" data-video="south-georgia" data-animation>
+        <div class="video-container">
+          <!--[if lte IE 8]><img src="/assets/720/south-georgia-poster.jpg"><![endif]-->
+        </div>
+        <div class="video-caption">
+            Global Fishing Watch is a technology platform that uses satellite data to inform the public about overfishing and make global fishing activity more transparent.
+        </div>
+      </div>
+    </div>
+    <div class="section column" style="margin:50px auto;">
+    <a class="navigation-marker" id="2"></a>
+	  <div class="headline">Global Fishing Watch</div>
+    </div>
+    <div class="section column" style="margin-top:50px;">
+      <p>
+        Global Fishing Watch is the product of a technology partnership between SkyTruth, Oceana, and Google that is designed to show all of the trackable fishing activity in the ocean. This interactive web tool – currently in prototype stage – is being built to enable anyone to visualize the global fishing fleet in space and time. Global Fishing Watch will reveal the intensity of fishing effort around the world, one of the stressors contributing to the precipitous decline of our fisheries.      </p>
+	  <p>
+        With hundreds of millions of people around the world depending on our ocean for their livelihoods, and many more relying on the ocean for food, ensuring the long-term sustainability of our ocean is a critical global priority. We need a tool that harnesses the power of citizen engagement to hold our leaders accountable for maintaining an abundant ocean.
+      </p>
+	  <p>
+        Global Fishing Watch will be available to the public, enabling anyone with an internet connection to monitor when and where commercial fishing is happening around the globe. Citizens can use the tool to see for themselves whether their fisheries are being effectively managed. Seafood suppliers can keep tabs on the boats they buy fish from. Media and the public can act as watchdogs to improve the sustainable management of global fisheries. Fisherman can show that they are obeying the law and doing their part. Researchers will have access to a multi-year record of all trackable fishing activity.
+      </p>
+	  <p>
+        The tool uses a global feed of vessel locations extracted from Automatic Identification System (AIS) tracking data collected by satellite, revealing the movement of vessels over time. The system automatically classifies the observed patterns of movement as either  “fishing” or “non-fishing” activity.
+      </p>
+	  <p>
+        This version of the Global Fishing Watch  started with 3.7 billion data points, more than a terabyte of data from two years of satellite collection, covering the movements of 111,374 vessels during 2012 and 2013. We ran a behavioral classification model that we developed across this data set to identify when and where fishing behavior occurred.  The prototype visualization contains 300 million AIS data points covering over 25,000 unique vessels. For the initial fishing activity map, the data is limited to 35 million detections from 3,125 vessels that we were able to independently verify were fishing vessels. Global Fishing Watch then displays  fishing effort in terms of the number of hours each vessel spent engaged in fishing behavior, and puts it all on a map that anyone with a web browser will be able to explore.
+      </p>
+	  <p>Watch this video to learn more about the map, and see Global Fishing Watch in action...</p>
+
+    </div>
+
+    <a class="navigation-marker" id="4"></a>
+    <div class="section column" style="margin:50px auto;">
+      <div class="iframe_wrap">
+        <!-- YOUTUBE EMBEDED VIDEO-->
+	    <iframe src="//www.youtube.com/embed/fn2JXmCUo30" frameborder="0" allowfullscreen></iframe>
+	  </div>
+	</div>
+
+    <div class="section column" style="margin:50px auto;">
+    <a class="navigation-marker" id="5"></a>
+	<div class="headline">Project Partners</div>
+    <div class="box_logo"><a href="http://skytruth.org" target="_blank"><img src="/images/st_logo.png"></a></div>
+    <p>
+    SkyTruth hopes this illustration of global fishing activity, when made available on a public map for the first time, will prompt people to start asking a lot of questions about how well our ocean and its living resources are being managed and protected.  Since 2001, SkyTruth’s mission has been to make more of the world visible to the people that live in it; we’re driven by the belief that better transparency leads to better management and better outcomes.
+At SkyTruth we’re always looking for opportunities to collaborate, so please use the contact form below to let us know how we can work together.
+    </p>
+    <div class="box_logo"><a href="http://oceana.org" target="_blank"><img src="/images/oceana_logo.png"></a></div>
+    <p>
+    “Global Fishing Watch will empower all stakeholders, including governments, fishery managers, citizens and members of the fishing industry itself, so that together they may work to bring back a healthy, bio-diverse and maximally productive ocean. By engaging citizens to hold their elected officials accountable for managing fisheries sustainably and for enforcing fishing rules, Global Fishing Watch will help bring back the world’s fisheries, protecting and enhancing the livelihoods of the hundreds of millions of people who depend on ocean fisheries for food and income.” <br/>&nbsp;&nbsp;&nbsp; - Andrew Sharpless, CEO Oceana <br/>
+    <br/>
+    Read our report - <a href="/oceana-global-fishing-watch-report.pdf">[PDF]</a> <br/>
+    Learn more - <a href="http://www.oceana.org/globalfishingwatch" target="_blank">www.oceana.org/globalfishingwatch</a>
+    </p>
+    <div class="box_logo"><a href="https://www.google.com/earth/outreach" target="_blank"><img src="/images/google_earth_outreach_logo.png"></a></div>
+    <p>
+    While many of the environmental trends in the ocean can be sobering, the combination of cloud computing and massive data is enabling new tools to visualize, understand and potentially reverse these trends. We are excited to contribute a Google-scale approach toward ocean sustainability and public awareness.
+    <br/>&nbsp;&nbsp;&nbsp; - Brian Sullivan, Program Manager, Google Ocean & Earth Outreach<br/></p>
+    </div>
+
+    <a class="navigation-marker" id="6"></a>
+    <div class="section column" style="margin:50px auto;">
+      <p><b>Funders:</b> If you are interested in helping to fund Global Fishing Watch please contact Andrew Sharpless directly at <a href="mailto:Andy@Oceana.org">Andy@Oceana.org</a></p>
+      <div id="feedback_form">
+        <div>
+            <iframe src="https://docs.google.com/forms/d/1VtVQ-O7OaggT0Wt-eUrsPbIcoOjwR8-MUKu8gz6kjJ0/viewform?embedded=true" width="760" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        </div>
+      </div>
+    </div>
+
+    <a class="navigation-marker" id="7"></a>
+    <div class="section section--last section--credits column" style="margin:50px auto;">
+	  <div id="partner_boxes">
+    	<div class="headline">Media Kit</div>
+        <p><b>Product Logos</b></p>
+		<ul>
+		  <li><a href="/images/gfw_logo_only_300px.png">Global Fishing Watch logo - print version</a></li>
+		  <li><a href="/images/gfw_logo_only_72px.png">Global Fishing Watch logo - web version</a></li>
+		  <li><a href="/images/gfw_logo_with_text_300px.png">Global Fishing Watch logo (with text, horizontal) - print version</a></li>
+		  <li><a href="/images/gfw_logo_with_text_72px.png">Global Fishing Watch logo (with text, horizontal) - web version</a></li>
+		  <li><a href="/images/gfw_logo_vertical_with_text_300px.png">Global Fishing Watch logo (with text, vertical) - print version</a></li>
+		  <li><a href="/images/gfw_logo_vertical_with_text_72px.png">Global Fishing Watch logo (with text, vertical) - web version</a></li>
+		</ul>  
+          <p><b>Partner Logos</b></p>
+		<ul>
+		  <li><a href="/images/st_logo.png">SkyTruth logo</a></li>
+		  <li><a href="/images/oceana_logo.png">Oceana logo</a></li>
+		  <li><a href="/images/google_earth_outreach_logo.png">Google Earth Outreach logo</a></li>
+		</ul>  
+        <p><b>Documents</b></p>
+		<ul>
+		  <li><a href="/oceana-global-fishing-watch-report.pdf">Oceana Report (PDF)</a></li>
+          <li><a href="/press-release.pdf">Press Release</a></li>
+		</ul>
+        <p><b>Product Videos and Images</b></p>
+        <ul>
+          <li><a href="http://storage.googleapis.com/skytruth-pelagos-qa/website/Press-Kit/854x480/skytruth-gfw-flag_states-854x480.gif">Flag states - 854 x 480 GIF</a></li>
+          <li><a href="http://storage.googleapis.com/skytruth-pelagos-qa/website/Press-Kit/854x480/skytruth-gfw-flag_states-854x480.jpg">Flag states - 854 x 480 JPEG</a></li>
+          <li><a href="http://storage.googleapis.com/skytruth-pelagos-qa/website/Press-Kit/854x480/skytruth-gfw-flag_states-854x480.mp4">Flag states - 854 x 480 MP4</a></li>
+          <li><a href="http://storage.googleapis.com/skytruth-pelagos-qa/website/Press-Kit/854x480/skytruth-gfw-flag_states-854x480.webm">Flag states - 854 x 480 WebM</a></li>
+          <li><a href="http://storage.googleapis.com/skytruth-pelagos-qa/website/Press-Kit/854x480/skytruth-gfw-russian_trawler-854x480.gif">Russian trawler off Namibian Coast - 854 x 480 GIF</a></li>
+          <li><a href="http://storage.googleapis.com/skytruth-pelagos-qa/website/Press-Kit/854x480/skytruth-gfw-russian_trawler-854x480.jpg">Russian trawler off Namibian Coast - 854 x 480 JPEG</a></li>
+          <li><a href="http://storage.googleapis.com/skytruth-pelagos-qa/website/Press-Kit/854x480/skytruth-gfw-russian_trawler-854x480.mp4">Russian trawler off Namibian Coast - 854 x 480 MP4</a></li>
+          <li><a href="http://storage.googleapis.com/skytruth-pelagos-qa/website/Press-Kit/854x480/skytruth-gfw-russian_trawler-854x480.webm">Russian trawler off Namibian Coast - 854 x 480 WebM</a></li>
+          <li><a href="http://storage.googleapis.com/skytruth-pelagos-qa/website/Press-Kit/854x480/skytruth-gfw-south_georgia-854x480.gif">South Georgia and the South Sandwich - Isles 854 x 480 GIF</a></li>
+          <li><a href="http://storage.googleapis.com/skytruth-pelagos-qa/website/Press-Kit/854x480/skytruth-gfw-south_georgia-854x480.jpg">South Georgia and the South Sandwich - Isles 854 x 480 JPEG</a></li>
+          <li><a href="http://storage.googleapis.com/skytruth-pelagos-qa/website/Press-Kit/854x480/skytruth-gfw-south_georgia-854x480.mp4">South Georgia and the South Sandwich - Isles 854 x 480 MP4</a></li>
+          <li><a href="http://storage.googleapis.com/skytruth-pelagos-qa/website/Press-Kit/854x480/skytruth-gfw-south_georgia-854x480.webm">South Georgia and the South Sandwich - Isles 854 x 480 WebM</a></li>
+          <li><a href="http://storage.googleapis.com/skytruth-pelagos-qa/website/Press-Kit/854x480/skytruth-gfw-world_atlantic-854x480.gif">World view centered on Atlantic Ocean - 854 x 480 GIF</a></li>
+          <li><a href="http://storage.googleapis.com/skytruth-pelagos-qa/website/Press-Kit/854x480/skytruth-gfw-world_atlantic-854x480.jpg">World view centered on Atlantic Ocean - 854 x 480 JPEG</a></li>
+          <li><a href="http://storage.googleapis.com/skytruth-pelagos-qa/website/Press-Kit/854x480/skytruth-gfw-world_atlantic-854x480.mp4">World view centered on Atlantic Ocean - 854 x 480 MP4</a></li>
+          <li><a href="http://storage.googleapis.com/skytruth-pelagos-qa/website/Press-Kit/854x480/skytruth-gfw-world_atlantic-854x480.webm">World view centered on Atlantic Ocean - 854 x 480 WebM</a></li>
+          <li><a href="http://storage.googleapis.com/skytruth-pelagos-qa/website/Press-Kit/854x480/skytruth-gfw-world_pacific-854x480.gif">World view centered on Pacific Ocean - 854 x 480 GIF</a></li>
+          <li><a href="http://storage.googleapis.com/skytruth-pelagos-qa/website/Press-Kit/854x480/skytruth-gfw-world_pacific-854x480.jpg">World view centered on Pacific Ocean - 854 x 480 JPEG</a></li>
+          <li><a href="http://storage.googleapis.com/skytruth-pelagos-qa/website/Press-Kit/854x480/skytruth-gfw-world_pacific-854x480.mp4">World view centered on Pacific Ocean - 854 x 480 MP4</a></li>
+          <li><a href="http://storage.googleapis.com/skytruth-pelagos-qa/website/Press-Kit/854x480/skytruth-gfw-world_pacific-854x480.webm">World view centered on Pacific Ocean - 854 x 480 WebM</a></li>
+          <li><a href="http://storage.googleapis.com/skytruth-pelagos-qa/website/Press-Kit/skytruth-gfw-press-kit-854x480.zip">All videos and stills - 854 x 480</a></li>
+          <li><a href="http://storage.googleapis.com/skytruth-pelagos-qa/website/Press-Kit/skytruth-gfw-press-kit-1138x640.zip">All videos and stills - 1138 x 640</a></li>
+          <li><a href="http://storage.googleapis.com/skytruth-pelagos-qa/website/Press-Kit/skytruth-gfw-press-kit-1280x720.zip">All videos and stills - 1280 x 720</a></li>
+          <li><a href="http://storage.googleapis.com/skytruth-pelagos-qa/website/Press-Kit/skytruth-gfw-press-kit-1920x1080.zip">All videos and stills - 1920 x 1080</a></li>
+		<ul>
+        </ul>
+        <hr />
+	    <div class="box1">
+		  <div class="box_logo"><a href="http://skytruth.org" target="_blank"><img src="/images/st_logo.png"></a></div>
+		  <hr />
+		  <div class="box_text">SkyTruth uses remote sensing and digital mapping to create stunning images that expose the landscape disruption and habitat degradation caused by mining, oil and gas drilling, deforestation, fishing and other human activities.</div>
+		  <div class="box_link"><a href="http://skytruth.org/" target="_blank">SkyTruth.org</a></div>
+		</div>  
+	    <div class="box2">
+		  <div class="box_logo"><a href="http://oceana.org" target="_blank"><img src="/images/oceana_logo.png"></a></div>
+		  <hr />
+		  <div class="box_text">Oceana is the largest international advocacy group working solely to protect the world’s oceans. Oceana wins policy victories for the oceans using science-based campaigns. Since 2001, Oceana has protected over 1.2 million square miles of ocean and innumerable sea turtles, sharks, dolphins and other sea creatures. More than 600,000 supporters have already joined Oceana. Global in scope, Oceana has offices in North, South and Central America, Europe and Asia.</div>
+		  <div class="box_link"><a href="http://oceana.org" target="_blank">Oceana.org</a></div>
+		</div>  
+	    <div class="box3">
+		  <div class="box_logo"><a href="https://www.google.com/earth/outreach" target="_blank"><img style="width: 222px; height: 41px; padding: 14px 0 6px 0;" src="/images/google_earth_outreach_logo.png"></a></div>
+		  <hr />
+		  <div class="box_text">Google Earth Outreach gives nonprofits and public benefit organizations the knowledge and resources they need to visualize their cause and tell their story in Google Earth & Maps to hundreds of millions of people. </div>
+		  <div class="box_link"><a href="https://www.google.com/earth/outreach/" target="_blank">Google Earth Outreach</a></div>
+		</div>  
+	  </div>  
+	</div>
+
+  </div>
+</div>
+<script>
+var mobileImages = [
+
+  // SECTION 1 - INTRO
+  {
+    file: "#nytg-tabletmap-0-spratlys-template",
+    section: 1,
+    slide: 2,
+    type: "map",
+    align: "right",
+    phone: {
+      file: "#nytg-phonemap_0_spratlys-template"
+    }
+  },
+  {
+    file: "mobile-1024/smuggler-tiny-boat.jpg",
+    section: 1,
+    slide: 3,
+    hideRule: true
+  },
+
+  // SECTION 4 - RUSTED SHIP
+  {
+    file: "mobile-1024/rusted-ship.jpg",
+    section: 4,
+    slide: 1
+  },
+  {
+    file: "mobile-1024/window-boat.jpg",
+    section: 4,
+    slide: 2,
+    align: "bottom"
+  },
+  {
+    file: "mobile-1024/under-flash-light.jpg",
+    section: 4,
+    slide: 3,
+    align: "right"
+  },
+  {
+    file: "mobile-1024/below-deck.jpg",
+    section: 4,
+    slide: 4,
+    hideRule: true,
+    align: "bottom"
+  },
+
+  {
+    file: "mobile-1024/chinese-coast-guards.jpg",
+    section: 5,
+    slide: 4,
+    type: "image",
+    hideRule: true
+  },
+
+  // SECTION 7 - FLY OVER
+  {
+    file: "720/fo1-poster.jpg",
+    section: 7,
+    slide: 1,
+    type: "hide",
+    hideRule: true
+  },
+  {
+    file: "#nytg-tabletmap-1-spratlys-template",
+    section: 7,
+    slide: 2,
+    type: "map",
+    hideRule: true,
+    phone: {
+      file: "#nytg-phonemap_1_spratlys-template"
+    }
+  },
+  {
+    file: "#nytg-tabletmap-2-spratlys-template",
+    section: 7,
+    slide: 3,
+    type: "map",
+    hideRule: true,
+    phone: {
+      file: "#nytg-phonemap_2_spratlys-template"
+    }
+  },
+  {
+    file: "#nytg-tabletmap-3-spratlys-template",
+    section: 7,
+    slide: 4,
+    type: "map",
+    hideRule: true,
+    phone: {
+      file: "#nytg-phonemap_3_spratlys-template"
+    }
+  },
+  {
+    file: "#nytg-tabletmap-4-spratlys-template",
+    section: 7,
+    slide: 5,
+    type: "map",
+    hideRule: true,
+    phone: {
+      type: "hide"
+    }
+  },
+
+  // SECTION 10 - FISHING
+  {
+    file: "mobile-1024/making-spear.jpg",
+    section: 10,
+    slide: 1
+  },
+  {
+    file: "mobile-1024/bending-arrow.jpg",
+    section: 10,
+    slide: 2,
+    align: "bottom right"
+  },
+  {
+    file: "mobile-1024/underwater.jpg",
+    section: 10,
+    slide: 3,
+    align: "right"
+  },
+  {
+    file: "mobile-1024/fish-basket.jpg",
+    section: 10,
+    slide: 4,
+    hideRule: true,
+    align: "left",
+    mobileCaption: "A successful spearfishing session meant avoiding barracudas and sharks and gathering basketfuls of Philippine grouper known as <i>lapu-lapu</i> and other fish."
+  },
+
+  // SECTION 11 - INLINE IMAGES
+  {
+    file: "mobile-1024/frying-fish.jpg",
+    section: 11,
+    slide: 5,
+    hideRule: true,
+    type: "image",
+  },
+  {
+    file: "mobile-1024/socializing.jpg",
+    section: 11,
+    slide: 8,
+    hideRule: true,
+    type: "image"
+  },
+
+  // {
+  //   file: "mobile-1024/frying-fish.jpg",
+  //   section: 11,
+  //   slide: 8
+  // },
+
+  // SECTION 12 - LOREST BINOCULARS
+  {
+    file: "mobile-1024/loresto-binoculars.jpg",
+    section: 12,
+    slide: 1
+  },
+  {
+    file: "mobile-1024/chinese-coast-guard.jpg",
+    section: 12,
+    slide: 2,
+    align: "right"
+  },
+  {
+    file: "mobile-1024/loresto-on-radio.jpg",
+    section: 12,
+    slide: 3,
+    hideRule: true,
+    align: "left"
+  },
+
+  {
+    file: "mobile-1024/mayor.jpg",
+    section: 13,
+    slide: 4,
+    type: "image",
+    hideRule: true
+  },
+
+  // SECTION 14 - DIPTYCHS
+  {
+    file: "mobile-1024/island-pag-asa.jpg",
+    section: 14,
+    slide: 4,
+    image: 1,
+    type: "diptych"
+  },
+  {
+    file: "mobile-1024/kids.jpg",
+    section: 14,
+    slide: 4,
+    image: 2,
+    type: "diptych"
+  },
+  {
+    file: "mobile-1024/lawak-basketball.jpg",
+    section: 14,
+    slide: 8,
+    image: 1,
+    type: "diptych"
+  },
+  {
+    file: "mobile-1024/island-lawak.jpg",
+    section: 14,
+    slide: 8,
+    image: 2,
+    type: "diptych"
+  },
+  {
+    phone: {
+      file: "#nytg-phonemap_5_spratlys-template",
+      section: 14,
+      order: 1,
+      target: "map",
+      type: "map"
+    }
+  },
+
+  // SECTION 15 - LOCATOR MAP 2
+  {
+    phone: {
+      file: "#nytg-phonemap_6_spratlys-template",
+      section: 15,
+      order: 1,
+      target: "map",
+      type: "map"
+    }
+  },
+
+  // SECTION 17 - TYPHOON
+  {
+    file: "mobile-1024/marines-prep-boat.jpg",
+    section: 17,
+    slide: 1,
+    align: "middle",
+  },
+  {
+    file: "mobile-1024/night-exterior-storm.jpg",
+    section: 17,
+    slide: 2,
+    align: "right"
+  },
+  {
+    file: "mobile-1024/storm-water-chicken.jpg",
+    section: 17,
+    slide: 3,
+    hideRule: true,
+    hideRule: true,
+    align: "bottom"
+  },
+
+  // SECTION 20 - FLIGHT
+  {
+    file: "mobile-1024/flight.jpg",
+    section: 20,
+    slide: 1,
+    align: "bottom"
+  },
+  {
+    file: "mobile-1024/cockpit.jpg",
+    section: 20,
+    slide: 2,
+    align: "bottom"
+  },
+  {
+    file: "mobile-1024/subi-reef-boats.jpg",
+    section: 20,
+    slide: 3,
+    align: "right"
+  },
+  {
+    file: "mobile-1024/chinese-station.jpg",
+    section: 20,
+    slide: 4,
+    hideRule: true,
+    align: "bottom"
+  }
+]
+</script>
+
+<script>
+
+function mobileReorient() {
+
+  var height = window.innerHeight - 40;
+
+  if (height > (720*.59) && window.innerWidth < 768) height = (720*.59);
+
+  document.querySelectorAll(".video-sequence:first-child .video:first-of-type .video-container")[0]
+      .style.height = height + "px";
+
+  document.querySelectorAll(".video-sequence:first-child .video:first-of-type .video-caption--head")[0]
+      .style.height = height + "px";
+}
+
+(function() {
+
+  if (isMobile()) mobileReorient();
+
+})();
+
+
+defer(function() {
+
+/* Only do if we're on iPad, iPhone or Android -- TG */
+if (!isMobile()) return false;
+
+var _mobile_assets = "/assets/";
+
+d3.select(window)
+  .on("resize", mobileReorient)
+  .on("scroll", function() {
+      d3.select(".navigation")
+        .classed("navigation-solid", window.scrollY > 350)
+  });
+
+d3.select(".headline").html( d3.select(".headline").html().replace("<br>", " <br>") )
+
+d3.select(".video-sequence:first-of-type").classed("ios-loaded", true);
+
+d3.select(".column .byline").html( d3.select(".column .byline").html().replace("<br>", " <br>") )
+
+d3.select(".section:nth-child(7)").classed("map-sequence", true);
+
+setTimeout(function() {
+
+  mobileImages.forEach(function(image) {
+
+    if (isPhone() && image.phone) {
+      for (var i in image.phone) {
+        image[i] = image.phone[i];
+      }
+    }
+
+    if (isPhone()) {
+      if (image.file) image.file = image.file.replace("mobile-1024", "mobile-640");
+    }
+
+    if (!image.section) return false;
+
+    image.url = _mobile_assets + image.file;
+
+    var container;
+
+    if (image.slide) {
+
+      container = d3.select(".section:nth-child(" + image.section + ") .video:nth-of-type(" + image.slide + ") .video-container")
+
+      if (image.type != "map" && image.type != "hide") {
+
+
+        container.html("").append("img")
+          .attr("src", image.url);
+
+      }
+
+      if (image.type != "hide") {
+
+        var css;
+
+
+        if (image.type == "map") css = "caption-" + image.file.replace("#","");
+        else css = "caption-" + image.file.match(/\/([\w-]+)/)[1];
+
+          d3.select(".section:nth-child(" + image.section + ") .video:nth-of-type(" + image.slide + ") .video-caption")
+            .classed(css, true)
+
+      }
+
+
+      var slide = d3.select(".section:nth-child(" + image.section + ") .video:nth-of-type(" + image.slide + ")");
+
+    }
+
+    if (image.align) d3.select(".section:nth-child(" + image.section + ") .video:nth-of-type(" + image.slide + ") .video-caption")
+      .classed(image.align.split(" ").map(function(dir) {
+            return "align-" + dir
+          }).join(" "), true)
+
+    if (!image.hideRule && slide) slide.append("div")
+        .attr("class", "video-rule")
+
+    if (image.target == "map") {
+
+      container = d3.select(".section:nth-child(" + image.section + ") .map")
+
+      var source = d3.select(".map-source").html();
+
+      if (isPhone()) container.html("<div class='map-source'>" + source + "</div>")
+
+    }
+
+    if (image.type == "hide") slide.classed("map-hide", true)
+
+    if (image.type == "map") {
+
+      container.html( container.html() + d3.select(image.file).text() )
+    }
+
+    if (image.mobileCaption) {
+      d3.select(".section:nth-child(" + image.section + ") .video:nth-of-type(" + image.slide + ") .video-caption").html(image.mobileCaption);
+    }
+
+    if (image.type == "image") d3.select(".section:nth-child(" + image.section + ") .image:nth-child(" + image.slide + ") img")
+        .attr("src", function(d) { return image.url; })
+
+    if (image.type == "diptych") d3.select(".section:nth-child(" + image.section + ") .image:nth-child(" + image.slide + ") img:nth-child(" + image.image + ")")
+        .attr("src", function(d) { return image.url; })
+
+  })
+
+}, 200)
+
+
+});</script>
+<script>defer(function() {
+
+/* Just skip if we're on iPad, iPhone or Android -- TG */
+if (isMobile()) return false;
+
+var _video_assets = "/assets/" + (innerWidth > 1150 ? 720 : 480) + "/",
+    _image_assets = "/assets/" + (innerWidth > 1150 ? 720 : 480) + "/",
+    _audio_assets = "/assets/" + "audio/";
+
+var mute = false,
+    muteVolume = "volume",
+    fixRatio = 16 / 9,
+    fixHeight = innerWidth / fixRatio,
+    fixTop = Math.round((innerHeight - fixHeight) / 2),
+    fadeTop = Math.max(200, fixTop),
+    fadeBottom = Math.min(innerHeight - 200, fixTop + fixHeight),
+    fade = d3.interpolateRgb("#000", "#fff");
+
+var headline = d3.select(".navigation-headline");
+
+var sequence = d3.selectAll(".video-sequence")
+    .datum(function() {
+      return {
+        first: !this.previousElementSibling,
+        audio: this.getAttribute("data-audio"),
+        length: this.querySelectorAll(".video").length
+      };
+    })
+    .call(d3.behavior.watch()
+      .on("scroll", sequencescrolled)
+      .on("statechange", sequencestatechanged));
+
+sequence.filter(function(d) { return d.audio; }).append("audio")
+    .attr("src", function(d) { return _audio_assets + d.audio + ".mp3"; })
+    .property("loop", true);
+
+var section = d3.selectAll(".video")
+    .datum(function() {
+      var previous = this.previousElementSibling,
+          next = this.nextElementSibling;
+      return {
+        video: this.getAttribute("data-video"),
+        animation: this.hasAttribute("data-animation"),
+        first: !previous || !d3.select(previous).classed("video"),
+        last: !next || !d3.select(next).classed("video")
+      };
+    });
+
+var sectionFixed = sequence.selectAll(".video")
+    .each(function(d) { d.sequence = this.parentNode.__data__; })
+    .call(d3.behavior.watch()
+      .on("scroll", fixscrolled)
+      .on("statechange", fixstatechanged));
+
+var container = section.select(".video-container");
+
+var video = container.filter(function(d) { return d.video; }).append("video")
+    .attr("preload", "none")
+/*    .attr("poster", function(d) { return d.animation && !d.first ? _image_assets + d.video + "-poster.jpg?2" : null; })*/
+    .attr("poster", function(d) { return _image_assets + d.video + "-poster.jpg" })
+    .property("loop", function(d) { return !d.animation; })
+    .text("Your browser does not support this video.");
+
+video.append("source")
+    .attr("src", function(d) { return _video_assets + d.video + ".mp4"; })
+    .attr("type", "video/mp4");
+
+video.append("source")
+    .attr("src", function(d) { return _video_assets + d.video + ".webm"; })
+    .attr("type", "video/webm");
+
+if (!supportsViewportUnits()) sectionFixed.append("div")
+    .style("height", fixHeight + "px");
+
+var containerFixed = sectionFixed.select(".video-container")
+    .style("z-index", function(d) { return d.first || d.last ? 1 : 2; })
+    .style("position", function(d) { return d.first || d.last ? "absolute" : "fixed"; })
+    .style("top", function(d) { return d.first || d.last ? null : fixTop + "px"; })
+    .style("display", function(d) { return d.first || d.last ? null : "none"; });
+
+containerFixed.append("div")
+    .attr("class", "video-sequence-indicator")
+    .style("margin-top", function(d) { return -d.sequence.length * 1.4 / 2 + "em"; })
+    .text(function(d, i) { return d3.range(d.sequence.length).map(function(j) { return i === j ? "●" : "○"; }).join("\n"); });
+
+var muteButton = d3.select(".navigation-volume")
+    .on("click", muted);
+
+d3.select(window)
+    .on("load.video", loaded)
+    .on("resize.video", resized);
+
+d3.select("video")
+    .attr("preload", "auto");
+
+resized();
+
+function loaded() {
+  video.attr("preload", function(d) { return d.first ? "auto" : "none"; });
+}
+
+function muted() {
+  mute = !mute;
+  muteVolume = mute ? "_volume" : "volume";
+  muteButton.classed("navigation-volume--muted", mute);
+  d3.event.preventDefault();
+  d3.selectAll("audio,video").interrupt().property("volume", mute
+      ? function() { this._volume = this.volume; return 0; }
+      : function() { return this._volume; });
+}
+
+function resized() {
+  fixHeight = innerWidth / fixRatio;
+  fixTop = Math.round((innerHeight - fixHeight) / 2);
+  fadeTop = Math.max(200, fixTop);
+  fadeBottom = Math.min(innerHeight - 200, fixTop + fixHeight);
+  d3.select(".video-sequence:first-child").style("margin-top", fixTop + "px");
+  containerFixed.style("height", fixHeight + "px").filter(function(d) {
+    var rect = this.parentNode.getBoundingClientRect();
+    return d.first ? rect.top < fixTop
+        : d.last ? rect.bottom >= fixTop + fixHeight
+        : true;
+  }).style("top", fixTop + "px");
+}
+
+function fixscrolled(d) {
+  if (d.first || d.last) {
+    var fixed = (d.first && d3.event.rect.top < fixTop)
+        || (d.last && d3.event.rect.bottom >= fixTop + fixHeight);
+    d3.select(this.querySelector(".video-container"))
+        .style("z-index", fixed ? 2 : 1)
+        .style("position", fixed ? "fixed" : "absolute")
+        .style("top", fixed ? fixTop + "px" : null);
+  }
+
+  var section = d3.select(this),
+      container = section.select(".video-container"),
+      videoNode = this.querySelector(".video-container video"),
+      volume = 1;
+
+  var opacityTop = d3.event.rect.top - fixHeight / 4,
+      opacity = opacityTop > fixTop + fixHeight * 4 / 5 ? 0 // previous video fully opaque
+        : !d.last && opacityTop < fixTop - fixHeight ? 0 // next video fully covers this video
+        : opacityTop < fixTop ? 1 // this video is fully opaque, but may be covered by next video
+        : Math.max(0, Math.min(1, 1 - (opacityTop - fixTop) / (fixHeight / 5))); // this video is partially opaque
+
+  if (d.first) {
+    if (videoNode) {
+      volume = d3.event.rect.top < fixTop + fadeTop ? Math.max(0, Math.min(1, 1 - (d3.event.rect.top - fixTop) / fadeTop)) : 0;
+      var play = d3.event.rect.top <= fixTop + fadeTop;
+      if (videoNode.paused) {
+        if (play && (!d.animation || (videoNode.currentTime < videoNode.duration && volume > .8))) {
+          videoNode.play();
+        }
+      } else if (!play) {
+        videoNode.pause();
+      }
+    }
+    container.style("opacity", opacityTop >= fixTop - fixHeight ? 1 : 0);
+  } else {
+    container.style("opacity", opacity);
+    if (videoNode) {
+      if (videoNode.paused) {
+        if (opacity) {
+         if (!d.animation || (videoNode.currentTime < videoNode.duration && opacity > .8)) {
+            videoNode.play();
+          }
+        } else if (videoNode.currentTime) {
+          videoNode.currentTime = 0;
+        }
+      } else if (!opacity) {
+        videoNode.pause();
+        if (videoNode.currentTime) videoNode.currentTime = 0;
+      }
+    }
+  }
+
+  if (d.last) {
+    if (videoNode) {
+      volume = d3.event.rect.bottom < fadeBottom ? Math.max(0, Math.min(1, 1 - (fadeBottom - d3.event.rect.bottom) / fadeTop)) : 1;
+      var play = d3.event.rect.bottom >= fadeBottom - fadeTop;
+      if (videoNode.paused) {
+        if (play && (!d.animation || (videoNode.currentTime < videoNode.duration && volume > .8))) {
+          videoNode.play();
+        }
+      } else if (!play) {
+        videoNode.pause();
+      }
+    }
+  }
+
+  section.select(".video-caption").style("opacity", opacityTop > fixTop ? (d.first ? 1 : Math.max(0, 1 - (opacityTop - fixTop) / (fixHeight / 5))) // fade in from bottom
+      : opacityTop > fixTop - fixHeight * 4 / 5 ? 1 // this video is fully opaque and not covered
+      : d.last ? 1 : Math.max(0, (opacityTop - fixTop + fixHeight * 4 / 5) / (fixHeight / 5) + 1)); // fade out to top
+
+  if (videoNode) {
+    videoNode[muteVolume] = volume = volume !== 1 ? volume // special-case volume for first and last fade
+        : opacityTop < fixTop - fixHeight ? 0 // video is fully covered by next video
+        : opacityTop < fixTop - fixHeight / 2 ? Math.max(0, Math.min(1, (opacityTop - fixTop + fixHeight) / (fixHeight / 2)))
+        : opacity;
+
+    if (d.first && d.sequence.first) headline.style("opacity", 1 - volume);
+  }
+}
+
+function fixstatechanged(d) {
+  d3.select(this.querySelector(".video-container"))
+      .style("display", d3.event.state ? null : "none")
+    .select("video")
+      .each(function() {
+        if (!d3.event.state) {
+          if (!this.paused) this.pause();
+          if (this.currentTime) this.currentTime = 0;
+        }
+      });
+
+  if (d.first && d.sequence.first && !d3.event.state) headline.style("opacity", null);
+}
+
+function sequencescrolled() {
+  var opacity = Math.max(0, Math.min(1, d3.event.rect.bottom < fadeBottom ? (fadeBottom - d3.event.rect.bottom) / fadeTop
+      : d3.event.rect.top < fixTop + fadeTop ? (d3.event.rect.top - fixTop) / fadeTop
+      : 1));
+  d3.select("body").style("background", fade(opacity));
+  d3.select(this).select("audio").property(muteVolume, 1 - opacity);
+}
+
+function sequencestatechanged() {
+  var sequence = d3.select(this),
+      audio = sequence.select("audio");
+  if (d3.event.state) {
+    sequence.selectAll("video").each(function() { this.preload = "auto"; });
+    audio.each(function() { this.play(); });
+  } else {
+    d3.select("body").style("background", null);
+    audio.each(function() { this.pause(); });
+  }
+}
+
+function supportsViewportUnits() {
+  var element = d3.select("body").append("div").style("width", "50vw"),
+      expected = innerWidth / 2,
+      actual = parseFloat(element.style("width"));
+  element.remove();
+  return Math.abs(expected - actual) <= 1;
+}
+
+});</script>
+<style>
+.footer-container {
+	border-top: solid 1px #b8bda7;
+}
+
+.footer-section {
+  background: #f7f7f7;
+  margin-top: 0;
+  padding: 7px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-section a {
+  border-right: 1px solid #767777;
+  color: #767777;
+  font: 14px sans-serif;
+  margin-right: 7px;
+  padding-right: 7px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.footer-section a:last-child {
+  border-right: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-section a:hover {
+  text-dceoration: underline;
+}
+
+.footer-section ~ * {
+  position: absolute;
+  top: -1000px;
+}
+
+</style>
+<div class="footer-container">
+  <div class="section footer-section">
+    <a href="">&copy; 2014 Global Fishing Watch</a>
+    <a href="mailto:info@globalfishingwatch.org">info@globalfishingwatch.org</a>
+  </div>
+</div>
+<!--[if gt IE 8]><!-->
+<script src="/js/lib.js"></script>
+<script>(function() {
+
+var watched = [];
+
+d3.behavior.watch = function() {
+  var event = d3.dispatch("statechange", "scroll");
+
+  function watch(selection) {
+    selection.each(function(i) {
+      watched.push({
+        element: this,
+        state: 0,
+        index: i,
+        event: event
+      });
+    });
+  }
+
+  return d3.rebind(watch, event, "on");
+};
+
+if (/iPhone|iPad|iPad|Android/.test(navigator.userAgent) || location.hash == "#ipad") {
+  d3.select(window)
+      .on("resize.watch", watch_scrolledStatic)
+      .on("DOMContentLoaded.watch", watch_scrolledStatic);
+} else {
+  d3.select(window)
+      .on("resize.watch", watch_scrolled)
+      .on("scroll.watch", watch_scrolled)
+      .on("DOMContentLoaded.watch", watch_scrolled);
+}
+
+function watch_scrolled() {
+  watched.forEach(function(watch) {
+    var rect = watch.element.getBoundingClientRect();
+    if (rect.top + rect.height < 0 || rect.bottom - rect.height - innerHeight > 0) {
+      watch_state(watch, 0);
+    } else {
+      var t = rect.top / (innerHeight - rect.height);
+      watch_state(watch, t < 0 || t > 1 ? 1 : 2);
+      watch_dispatch(watch, {type: "scroll", offset: t, rect: rect});
+    }
+  });
+}
+
+function watch_scrolledStatic() {
+  watched.forEach(function(watch) {
+    watch_state(watch, 1);
+    watch_dispatch(watch, {type: "scroll", offset: .5, rect: {top: 0}}); // XXX rect
+  });
+}
+
+function watch_state(watch, state1) {
+  var state0 = watch.state;
+  if (state0 !== state1) watch_dispatch(watch, {
+    type: "statechange",
+    state: watch.state = state1,
+    previousState: state0
+  });
+}
+
+function watch_dispatch(watch, event) {
+  var element = watch.element,
+      sourceEvent = event.sourceEvent = d3.event;
+  try {
+    d3.event = event;
+    watch.event[event.type].call(element, element.__data__, watch.index);
+  } finally {
+    d3.event = sourceEvent;
+  }
+}
+
+await();
+
+})();</script>
+<!--<![endif]-->
+
+<!-- Begin Google Analytics code -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-56517380-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics code -->
