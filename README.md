@@ -1,2 +1,2 @@
-# gfw-website
-website content published at globalfishingwatch.org
+# Global Fishing Watch website
+Website content published at [globalfishingwatch.org](http://globalfishingwatch.org).
